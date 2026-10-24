@@ -116,11 +116,13 @@ a {
 
 .app-header-title,
 .app-header h1 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
-  letter-spacing: -0.01em;
-  color: #f8fafc;
-  background: transparent;
+  color: #ffffff !important;
+  background: none !important;
+  background-color: transparent !important;
+  -webkit-text-fill-color: #ffffff !important;
+  -webkit-background-clip: initial !important;
   display: inline-block;
   margin: 0;
   padding: 0;
