@@ -1,0 +1,41 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+*.log
+local_settings.py
+db.sqlite3-journal
+
+# Virtual Environment
+.env/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node / React
+mynotes/node_modules/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+
+# Docker & Database runtime storage
+data/
+data/mysql/
+
+# Editor & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
